@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE book [
+<!ELEMENT book ( book_name )>
+<!ELEMENT book_name (#PCDATA)>
+]>
+<book>
+    <book_name>XML</book_name>
+    <price>123</price>
+</book>

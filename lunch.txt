@@ -1,0 +1,44 @@
+--------------lunch.xml-----------
+<?xml version="1.0" ?> 
+
+<lunch xmlns:xsi="http://www.w3or/2001/XMLSchema-instance" xsi:noNamspaceSchemaLocaion="lunch.xsd">
+	<starter>
+		<soup>tomato</soup>
+	</starter>
+	<maincourse>
+		<veglunch>punjabi</veglunch>
+	</maincourse>
+	<dessert>
+		<icecream>mango</icecream>
+	</dessert>
+</lunch>
+
+
+
+-----lunch.xsd--------------
+<?xml version="1.0" ?> 
+<xsd:schema xmlns:xsd="http://www.w3org/2001/XMLSchema">
+	<xsd:element name="lunch">	
+		<xsd:complexType>	
+			<xsd:sequence>
+			  <xsd:element name="starter" type="xsd:string" minOccurs="1" maxOccurs="unBounded">
+				<xsd:complexType>
+					<xsd:choice>
+						<xsd:element name="soup" type="xsd:string"/>
+						<xsd:element name="juicer" type="xsd:string"/> 
+					</xsd:choice>
+				<xsd:complexType>
+				</xsd:element>
+
+			<xsd:element name="maicourse" type="xsd:string"  minOccurs="0" maxOccurs="1">
+				<xsd:complexType>
+					<xsd:choice>
+						<xsd:element name="veglunch" type="xsd:string"/>
+						<xsd:element name="nonveglunch" type="xsd:string"/> 
+					</xsd:choice>
+				<xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>	
+		</xsd:complexType>
+	<xsd:element >	
+</xsd:schema>

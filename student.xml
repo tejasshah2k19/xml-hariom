@@ -1,0 +1,9 @@
+<?xml version="1." ?>
+
+<student xmlns:xsi="www.w3org/2001/XMLSchema-instance" xsi:noNamespacelocation="student.xsd" >
+	<firstname>ram</firstname>
+	<lastname>patel</lastname>
+	<address>ayodhya</address>
+	<percentage>99.99</percentage>
+	<currentyear>1900</percentage>
+</student> 

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3org/2001/XMLSchema">
+	<xsd:element name="student">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="firstname" type="xsd:string"/>
+				<xsd:element name="lastname" type="xsd:string"/>
+				<xsd:element name="address" type="xsd:string"/>
+				<xsd:element name="percentage" type="xsd:float"/>
+				<xsd:element name="currentyear" type="xsd:integer"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

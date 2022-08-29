@@ -1,0 +1,11 @@
+<!ELEMENT mail (to+,date,from,subject?,body?,attachment*)>
+<!ELEMENT to (#PCDATA) >
+<!ELEMENT date (#DATE) >
+<!ELEMENT from (#PCDATA) >
+<!ELEMENT subject (#PCDATA) >
+<!ELEMENT body (#PCDATA) >
+<!ELEMENT attachment (name,size) >
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT size (#PCDATA)>
+
+<!-- this is commnet  same as html xml -->

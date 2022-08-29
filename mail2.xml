@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mail [
+<!ELEMENT mail (to,from,subject,body,attachment,cc,seen)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT subject (welcome | #PCDATA)>
+<!ELEMENT body (#PCDATA)>
+<!ELEMENT attachment (name,size)>
+<!ELEMENT attachment type CDATA #REQUIRED> 
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT size (#PCDATA)> 
+<!ELEMENT cc EMPTY > 
+<!ELEMENT seen (read | unread)>
+]>
+<mail>
+    <to>abc@gmail.com</to>
+    <from>xyz@gmail.com</from>
+    <subject>Well Wishesh</subject>
+    <body>Good Morning</body>
+    <signature>Xyz</signature>
+    <attachment type="pdf">
+        <name>well.pdf</name>
+        <size>1mb</size>
+    </attachment>
+    <cc/>
+    <seen>read</seen>
+    <!-- <cc></cc> -->
+</mail>
+ 

@@ -1,0 +1,157 @@
+xml -> tag -> user define -> transfer data -> 
+			     config -> 
+				store and transport data 
+
+server --> data -->  process ->  app LED TV 
+russia -> ptc --> hp -> process ->  car ->  
+
+
+NSE  2606 server -->xml -->  mony  ang up trend
+
+ 
+
+<product>
+ <tv>
+   <led>
+
+
+<food>
+
+
+<furniture>
+
+<pizza>
+
+
+
+html -> tag -> predefine -> webpage 
+
+share market
+
+
+1) xml file .xml 
+2) firstline must be <?xml ?> 
+3) every file contains n number of tag but all tags must be inside a root tag.
+4) tag must be closed with correct order 
+5) element must not start with xml|XML  
+6) xml tag case sensitive <product> <Product>  [ you can use letters,digits,hypens,underscores and dot ] 
+7) attribute value must be quoted <book pubyear="1997">
+8) entity references [ &gt; lt quot ] 
+	ex. c -> new line -> \n
+	ex. xml -> fees > 3000  -> fess &gt; 3000 
+
+
+how we can put comments in xml ? 
+
+same as html
+
+<!-- your comment --> 
+
+------------------------------------------------------------------------------------------
+XML Namespace:- 
+	it will help to resolve confusion in duplication in term  used or name conflicts. 
+
+
+<tables>
+<h:table xmlns:h="html">  <!-- uri --> 
+	<h:tr>
+		<h:td>india</td>
+	</h:tr>
+</h:table> 
+
+
+or
+<h:table xmlns:h="www.au.com/student/html">  <!-- uri --> 
+
+<f:table xmlns:f="furniture>
+	<f:name>Coffe Table</f:name>
+	<f:width>120</f:width>
+	<f:length>200</f:length>
+</f:table>
+<tables>
+
+
+---------------------------------------------------------------------------------------------------
+how we verify xml file? 
+allow tag 
+
+DTD -> to validate xml
+XSD -> to validate xml 
+
+
+ scanf("formatsepcifier",&variable);//syntax 
+
+
+1) internal
+2) external 
+
+
+
+xml ->
+	1) well formed :- syntax
+	2) validated  :- dtd
+	3) both 
+
+Not Well form , validated 
+
+
+element -> occurence -> count 
+
+to -> 1 .. N 
+from -> 1 
+subject -> 0 .. 1
+body -> 0 .. 1 
+attachment -> 0 .. N 
+
+
+
+student 
+
+
+club: dtd  
+
+gen: dtd  
+
+
+
+
+				account.dtd 
+				name
+				balance
+				accnum
+				
+current.dtd 					saving.dtd
+od								interest
+100page							25page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

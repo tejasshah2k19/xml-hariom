@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<bank>
+    <account>
+        <type>saving</type>
+        <accnum>12345</accnum>
+        <name>ram</name>
+        <balance>25000</balance>
+        <!-- <qty>15</qty> -->
+    </account>
+</bank>
